@@ -1,0 +1,67 @@
+html body{
+  
+  background-color: #F8BBD0;
+}
+
+.box{
+  /* Position relative means the element is positioned relative to its normal position, which would be the very top left corner as it is the first div in the body. */
+  
+  /* When the position is set to relative, using display: block; and margin:auto; will automatically center the box horizontally. */
+  position: relative;
+  margin: auto;
+  display: block;
+  /*optional background or border*/
+  border: solid 4px #AD1457;
+  border-radius: 20%;
+  margin-top: 5%;
+  width: 90%;
+  height: 1300px;
+  
+  background-image: url("http://www.pngmart.com/files/3/Bubbles-PNG-Clipart.png");
+  
+}
+
+/* The width of the div is 50% and the height 67%. This means that the width is 50% of the box and the height 67% of the box. */
+.calc{
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  /* background: #00838F;  dark pink */
+  
+  border-radius: 10%; 
+  padding: 5%;
+}
+
+/* parallex */
+#prlx_lyr_1{
+	position:fixed;
+	background: url(https://www.macupdate.com/images/icons256/26677.png) no-repeat 0px 200px;
+	width:100%;
+	height:800px;
+}
+#prlx_lyr_2{
+	position:fixed;
+	background: url(https://www.macupdate.com/images/icons256/26677.png) no-repeat 600px 400px;
+	width:100%;
+	height:1000px;
+}
+
+#prlx_lyr_3{
+	position:fixed;
+	background: url(http://naturalbs.bg/wp-content/uploads/2016/10/water_PNG3317.png) no-repeat 0px 200px;
+	width:100%;
+	height:800px;
+}
+#prlx_lyr_4{
+	position:fixed;
+	background: url(http://naturalbs.bg/wp-content/uploads/2016/10/water_PNG3317.png) no-repeat 600px 400px;
+	width:100%;
+	height:1000px;
+}
+
+
+#content_layer{ position:absolute; }
+
+
